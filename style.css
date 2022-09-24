@@ -69,11 +69,3 @@ button:focus {
   outline: none;
   background-color: #5e3370;
 }
-@media screen and (max-width:400px){
-  .quiz-container {
-    width: 90%;
-  }
-  #question{
-    margin: 0 auto;
-  }
-}
