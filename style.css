@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
 }
 
@@ -19,13 +19,13 @@ body {
   background-color:#5DA3FA;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-  width: 600px;
+  width: 55%;
   /* overflow: hidden; */
   transition-duration:.4s;
 }
 
 .quiz-header {
-  padding: 4rem;
+  padding: 20px;
 }
 
 h2 {
@@ -68,7 +68,7 @@ button:focus {
   outline: none;
   background-color: #5e3370;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
   .quiz-container {
     width: 90%;
   }
